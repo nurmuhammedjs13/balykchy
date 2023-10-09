@@ -1,0 +1,231 @@
+*{
+    font-family: 'Krona One', sans-serif;;
+}
+
+body{
+    margin: 0 ;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hero{
+    height: 100vh;
+    background: url(images/pavel-fertikh-R1Wy2m3oFqQ-unsplash\ 1.jpg) 0 0 / cover;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.invis{
+    visibility: hidden;
+}
+
+.info{
+    color: #FFF;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hero-info{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    color: white;
+    width: 236px;
+    height: 44px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid white;
+    background: none;
+}
+
+.swap{
+    padding: 200px 0 0 0;
+    width: 43px;
+    height: 43px;;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.img-info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-1{
+    width: 50%;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #151515;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-inf{
+    width: 500px;
+    color: #151515;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pic-text{
+    color: #FFF;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    margin-right: 1000px;
+}
+
+.pictures{
+    background: #181818;
+}
+
+.pictures-content{
+    padding: 0 0 150px 0;
+    background: rgb(0, 0, 0);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:5px;
+}
+
+.box{
+    width: 500px;
+    height: 400px;
+}
+
+.box5{
+    width: 1008px;
+    grid-area: 1/3/1/1;
+}
+
+
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    gap: 10px;
+    padding: 0 0 100px 0;
+}
+
+.form-text{
+    color: #151515;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 150px 0 0 0;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 0;
+    gap: 10px;
+}
+
+.in-text{
+    padding: 15px 150px;
+    border: 2px solid rgb(165, 165, 165);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.in-email{
+    padding: 15px 150px;
+    border: 2px solid rgb(165, 165, 165);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.in-mess{
+    padding: 100px 150px;
+    border: 2px solid rgb(165, 165, 165);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button1{
+    margin: 40px 0 0 0 ;
+    padding: 10px 80px;
+    background: none;
+    border: 3px solid black;
+    gap: 20px;
+    color: #151515;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.basement{
+    padding: 130px;
+    background: black;
+    overflow-x: scroll;
+}
+
+.number{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.end-text{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.basement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ic{
+    padding: 0 10px;
+}
+
+a{
+    text-decoration: none;
+}
